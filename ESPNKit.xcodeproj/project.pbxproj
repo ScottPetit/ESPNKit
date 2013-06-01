@@ -16,6 +16,10 @@
 		51D73BE3175A36D200052D3D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 51D73BE2175A36D200052D3D /* Default.png */; };
 		51D73BE5175A36D200052D3D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51D73BE4175A36D200052D3D /* Default@2x.png */; };
 		51D73BE7175A36D200052D3D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51D73BE6175A36D200052D3D /* Default-568h@2x.png */; };
+		51D73BF0175A390C00052D3D /* ESPNAthlete.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D73BEF175A390C00052D3D /* ESPNAthlete.m */; };
+		51D73BF3175A5BE100052D3D /* ESPNSchool.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D73BF2175A5BE100052D3D /* ESPNSchool.m */; };
+		51D73BF6175A5BF000052D3D /* ESPNCountry.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D73BF5175A5BF000052D3D /* ESPNCountry.m */; };
+		51D73BF9175A5CA300052D3D /* ESPNObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D73BF8175A5CA100052D3D /* ESPNObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,14 @@
 		51D73BE2175A36D200052D3D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		51D73BE4175A36D200052D3D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		51D73BE6175A36D200052D3D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		51D73BEE175A390C00052D3D /* ESPNAthlete.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPNAthlete.h; sourceTree = "<group>"; };
+		51D73BEF175A390C00052D3D /* ESPNAthlete.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPNAthlete.m; sourceTree = "<group>"; };
+		51D73BF1175A5BE100052D3D /* ESPNSchool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPNSchool.h; sourceTree = "<group>"; };
+		51D73BF2175A5BE100052D3D /* ESPNSchool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPNSchool.m; sourceTree = "<group>"; };
+		51D73BF4175A5BF000052D3D /* ESPNCountry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPNCountry.h; sourceTree = "<group>"; };
+		51D73BF5175A5BF000052D3D /* ESPNCountry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPNCountry.m; sourceTree = "<group>"; };
+		51D73BF7175A5CA000052D3D /* ESPNObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPNObject.h; sourceTree = "<group>"; };
+		51D73BF8175A5CA100052D3D /* ESPNObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPNObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +92,7 @@
 			children = (
 				51D73BDF175A36D200052D3D /* ESPNAppDelegate.h */,
 				51D73BE0175A36D200052D3D /* ESPNAppDelegate.m */,
+				51D73BED175A382D00052D3D /* Models */,
 				51D73BD7175A36D200052D3D /* Supporting Files */,
 			);
 			path = ESPNKit;
@@ -97,6 +110,21 @@
 				51D73BE6175A36D200052D3D /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51D73BED175A382D00052D3D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				51D73BF7175A5CA000052D3D /* ESPNObject.h */,
+				51D73BF8175A5CA100052D3D /* ESPNObject.m */,
+				51D73BEE175A390C00052D3D /* ESPNAthlete.h */,
+				51D73BEF175A390C00052D3D /* ESPNAthlete.m */,
+				51D73BF4175A5BF000052D3D /* ESPNCountry.h */,
+				51D73BF5175A5BF000052D3D /* ESPNCountry.m */,
+				51D73BF1175A5BE100052D3D /* ESPNSchool.h */,
+				51D73BF2175A5BE100052D3D /* ESPNSchool.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +195,10 @@
 			files = (
 				51D73BDD175A36D200052D3D /* main.m in Sources */,
 				51D73BE1175A36D200052D3D /* ESPNAppDelegate.m in Sources */,
+				51D73BF0175A390C00052D3D /* ESPNAthlete.m in Sources */,
+				51D73BF3175A5BE100052D3D /* ESPNSchool.m in Sources */,
+				51D73BF6175A5BF000052D3D /* ESPNCountry.m in Sources */,
+				51D73BF9175A5CA300052D3D /* ESPNObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
