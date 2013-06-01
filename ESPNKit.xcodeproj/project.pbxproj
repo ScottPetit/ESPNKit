@@ -31,6 +31,8 @@
 		51D73C17175A605B00052D3D /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D73C0E175A605B00052D3D /* UIImageView+AFNetworking.m */; };
 		51D73C19175A60AD00052D3D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D73C18175A60AD00052D3D /* SystemConfiguration.framework */; };
 		51D73C1B175A60B300052D3D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D73C1A175A60B300052D3D /* MobileCoreServices.framework */; };
+		51D73C1F175A613F00052D3D /* ESPNDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D73C1E175A613F00052D3D /* ESPNDataManager.m */; };
+		51D73C22175A619F00052D3D /* ESPNHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D73C21175A619F00052D3D /* ESPNHTTPClient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +78,10 @@
 		51D73C0E175A605B00052D3D /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		51D73C18175A60AD00052D3D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		51D73C1A175A60B300052D3D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		51D73C1D175A613F00052D3D /* ESPNDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPNDataManager.h; sourceTree = "<group>"; };
+		51D73C1E175A613F00052D3D /* ESPNDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPNDataManager.m; sourceTree = "<group>"; };
+		51D73C20175A619F00052D3D /* ESPNHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPNHTTPClient.h; sourceTree = "<group>"; };
+		51D73C21175A619F00052D3D /* ESPNHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPNHTTPClient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +134,7 @@
 			children = (
 				51D73BDF175A36D200052D3D /* ESPNAppDelegate.h */,
 				51D73BE0175A36D200052D3D /* ESPNAppDelegate.m */,
+				51D73C1C175A613200052D3D /* Managers */,
 				51D73BED175A382D00052D3D /* Models */,
 				51D73BFA175A605B00052D3D /* Third Party */,
 				51D73BD7175A36D200052D3D /* Supporting Files */,
@@ -196,6 +203,17 @@
 				51D73C0E175A605B00052D3D /* UIImageView+AFNetworking.m */,
 			);
 			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		51D73C1C175A613200052D3D /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				51D73C1D175A613F00052D3D /* ESPNDataManager.h */,
+				51D73C1E175A613F00052D3D /* ESPNDataManager.m */,
+				51D73C20175A619F00052D3D /* ESPNHTTPClient.h */,
+				51D73C21175A619F00052D3D /* ESPNHTTPClient.m */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +297,8 @@
 				51D73C15175A605B00052D3D /* AFURLConnectionOperation.m in Sources */,
 				51D73C16175A605B00052D3D /* AFXMLRequestOperation.m in Sources */,
 				51D73C17175A605B00052D3D /* UIImageView+AFNetworking.m in Sources */,
+				51D73C1F175A613F00052D3D /* ESPNDataManager.m in Sources */,
+				51D73C22175A619F00052D3D /* ESPNHTTPClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
