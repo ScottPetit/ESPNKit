@@ -35,6 +35,7 @@
 		51D73C22175A619F00052D3D /* ESPNHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D73C21175A619F00052D3D /* ESPNHTTPClient.m */; };
 		51D73C27175ABAC600052D3D /* ESPNSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D73C26175ABAC600052D3D /* ESPNSampleViewController.m */; };
 		51D73C2A175BC47600052D3D /* ESPNConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D73C29175BC47400052D3D /* ESPNConstants.m */; };
+		51D73C2D175BCA5500052D3D /* ESPNTeam.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D73C2C175BCA5400052D3D /* ESPNTeam.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,6 +90,8 @@
 		51D73C26175ABAC600052D3D /* ESPNSampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPNSampleViewController.m; sourceTree = "<group>"; };
 		51D73C28175BC47300052D3D /* ESPNConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPNConstants.h; sourceTree = "<group>"; };
 		51D73C29175BC47400052D3D /* ESPNConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPNConstants.m; sourceTree = "<group>"; };
+		51D73C2B175BCA5400052D3D /* ESPNTeam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPNTeam.h; sourceTree = "<group>"; };
+		51D73C2C175BCA5400052D3D /* ESPNTeam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPNTeam.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +180,8 @@
 				51D73BF5175A5BF000052D3D /* ESPNCountry.m */,
 				51D73BF1175A5BE100052D3D /* ESPNSchool.h */,
 				51D73BF2175A5BE100052D3D /* ESPNSchool.m */,
+				51D73C2B175BCA5400052D3D /* ESPNTeam.h */,
+				51D73C2C175BCA5400052D3D /* ESPNTeam.m */,
 				51D73C23175A62BC00052D3D /* ESPNLeagues.h */,
 			);
 			path = Models;
@@ -321,6 +326,7 @@
 				51D73C22175A619F00052D3D /* ESPNHTTPClient.m in Sources */,
 				51D73C27175ABAC600052D3D /* ESPNSampleViewController.m in Sources */,
 				51D73C2A175BC47600052D3D /* ESPNConstants.m in Sources */,
+				51D73C2D175BCA5500052D3D /* ESPNTeam.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
