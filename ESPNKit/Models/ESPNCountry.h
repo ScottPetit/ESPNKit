@@ -10,7 +10,7 @@
 
 @interface ESPNCountry : ESPNObject
 
-@property (nonatomic, copy) NSString *identifer;
-@property (nonatomic, copy) NSString *abbreviation;
+@property (nonatomic, copy, readonly) NSString *identifer;
+@property (nonatomic, copy, readonly) NSString *abbreviation;
 
 @end

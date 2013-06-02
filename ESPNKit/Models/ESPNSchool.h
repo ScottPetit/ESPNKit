@@ -10,7 +10,7 @@
 
 @interface ESPNSchool : ESPNObject
 
-@property (nonatomic, copy) NSString *identifier;
-@property (nonatomic, copy) NSString *name;
+@property (nonatomic, copy, readonly) NSString *identifier;
+@property (nonatomic, copy, readonly) NSString *name;
 
 @end
